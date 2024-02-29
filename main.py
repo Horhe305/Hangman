@@ -61,4 +61,5 @@ def hangman():
             print(item, end=' ')
 
 
-hangman()
+if __name__ == '__main__':
+    hangman()
